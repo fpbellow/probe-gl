@@ -1,0 +1,46 @@
+{
+    "name": "IrradianceVolume",
+    "probe_type": "irradiance",
+    "transform": {
+        "position": [
+            -0.4694005250930786,
+            4.8372979164123535,
+            -0.3972189426422119
+        ],
+        "scale": [
+            11.35741901397705,
+            6.217085361480713,
+            5.268648624420166
+        ],
+        "rotation": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "render": {
+        "clip_start": 0.009999999776482582,
+        "clip_end": 40.0,
+        "map_size": 64,
+        "cycle_samples_max": 8,
+        "cycle_samples_min": 1,
+        "cycle_time_limit": 16.0,
+        "cycle_use_denoising": true
+    },
+    "file": "IrradianceVolume_packed.exr",
+    "data": {
+        "resolution": [
+            6,
+            5,
+            4
+        ],
+        "intensity": 1.0,
+        "influence_distance": 0.0,
+        "falloff": 1.0
+    },
+    "baking": {
+        "cubemap_face_size": 64,
+        "max_texture_size": 2048
+    },
+    "visibility": false
+}

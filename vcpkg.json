@@ -1,0 +1,14 @@
+{
+  "dependencies": [
+    "glfw3",
+    "fastgltf",
+    "openexr",
+    {
+      "name": "imgui",
+      "features": [
+        "glfw-binding",
+        "dx11-binding"
+      ]
+    }
+  ]
+}
