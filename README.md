@@ -2,7 +2,6 @@
 
 A small demo using the [Light Bake](https://superhivemarket.com/products/light-bake) Blender addon to generate an irradiance map from the probes of an irradiance volume and implementing such in DirectX 11 along with physical based rendering based off of [Frostbite's implementation](https://seblagarde.wordpress.com/wp-content/uploads/2015/07/course_notes_moving_frostbite_to_pbr_v32.pdf).
 
----
 
 ## Libraries Used
 - [GLFW](https://github.com/glfw/glfw) – Multi-platform windowing and input
