@@ -10,7 +10,6 @@ A small demo using the [Light Bake](https://superhivemarket.com/products/light-b
 - [FastGLTF](https://github.com/spnda/fastgltf)
 - [OpenEXR](https://github.com/AcademySoftwareFoundation/openexr)
 
----
 
 ## Screenshots
 <img width="2045" height="1153" alt="screenshot_image" src="https://raw.githubusercontent.com/fpbellow/probe-gl/main/screenshot_image.png" />
