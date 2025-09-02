@@ -11,5 +11,9 @@ A small demo using the [Light Bake](https://superhivemarket.com/products/light-b
 - [OpenEXR](https://github.com/AcademySoftwareFoundation/openexr)
 
 
+## Assets
+- [Sponza Scene](https://github.com/KhronosGroup/glTF-Sample-Models/tree/main/2.0/Sponza)
+- [NoEmotion HDR 05-18_DAY_F](https://noemotionhdrs.net/hdrday.html)
+
 ## Screenshots
 <img width="2045" height="1153" alt="screenshot_image" src="https://raw.githubusercontent.com/fpbellow/probe-gl/main/screenshot_image.png" />
