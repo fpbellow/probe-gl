@@ -4,13 +4,13 @@
     "transform": {
         "position": [
             -0.4694005250930786,
-            3.0061185359954834,
-            -0.24486379325389862
+            4.8372979164123535,
+            -0.3972189426422119
         ],
         "scale": [
-            12.413992881774902,
-            3.48484468460083,
-            5.156344890594482
+            11.35741901397705,
+            6.217085361480713,
+            5.268648624420166
         ],
         "rotation": [
             0.0,
@@ -23,16 +23,16 @@
         "clip_end": 40.0,
         "map_size": 64,
         "cycle_samples_max": 8,
-        "cycle_samples_min": 2,
-        "cycle_time_limit": 20.0,
+        "cycle_samples_min": 1,
+        "cycle_time_limit": 16.0,
         "cycle_use_denoising": true
     },
     "file": "IrradianceVolume_packed.exr",
     "data": {
         "resolution": [
-            8,
             6,
-            7
+            5,
+            4
         ],
         "intensity": 1.0,
         "influence_distance": 0.0,

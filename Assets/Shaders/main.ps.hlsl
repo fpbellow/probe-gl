@@ -179,10 +179,10 @@ PS_OUTPUT Main(PS_INPUT input)
     
     float3 irradiance = irrCubeProbes.Sample(samplerLinear, float4(N, input.cubeMapIdx)).rgb;
 
-    float exposure = 90.0;
+    float exposure = 1.6;
     float3 Lo = (kD * albedo / PI * Fd + Fr) * radiance * NdotL;
   
-    float3 ambient = max(irradiance * albedo * exposure, albedo * 0.001);
+    float3 ambient = max(irradiance * albedo * exposure, albedo * 0.015);
 
     
   

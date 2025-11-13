@@ -384,6 +384,7 @@ WRL::ComPtr<ID3D11ShaderResourceView> LoadProbeCubemaps(ID3D11Device* device, co
 		}
 	}
 
+
 	D3D11_TEXTURE2D_DESC texDesc{};
 	texDesc.Width = faceSize;
 	texDesc.Height = faceSize;
@@ -402,7 +403,7 @@ WRL::ComPtr<ID3D11ShaderResourceView> LoadProbeCubemaps(ID3D11Device* device, co
 		initData[i].SysMemPitch = faceSize * sizeof(float) * 4;
 		initData[i].SysMemSlicePitch = 0;
 	}
-	
+
 
 	WRL::ComPtr<ID3D11Texture2D> texture = nullptr;
 	if (FAILED(device->CreateTexture2D(&texDesc, initData.data(), texture.GetAddressOf())))
